@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'LibSerial7',       
   packages = ['LibSerial7'],   
-  version = '0.1',      
+  version = '0.2',      
   license='MIT',       
   description = 'Biblioteca LibSerial7 ',   
   author = 'Jaemilton',                  
@@ -11,8 +11,7 @@ setup(
   download_url = 'https://github.com/jaemilton/LibSerial7/archive/0.1.tar.gz',    
   keywords = ['Serial', 'Senai', 'ComPort'],  
   install_requires=[           
-          'datetime',
-          'random',         
+          'datetime',       
       ],
   classifiers=[
     #"3 - Alpha", "4 - Beta" or "5 - Production/Stable"   
